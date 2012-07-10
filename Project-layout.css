@@ -1,10 +1,107 @@
-@charset "utf-8";
-/* CSS Document */
+@charset "UTF-8";
 
-* {
-	margin: 0;
-	padding: 0;
+/* browser reset */
+
+@media all {
+
+	/* Global reset of paddings and margins for all HTML elements */
+	html, body, div, span, applet, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	b, u, i, center,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td,
+	article, aside, canvas, details, embed, 
+	figure, figcaption, footer, header, hgroup, 
+	menu, nav, output, ruby, section, summary,
+	time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+
+	/* Correction:margin/padding reset caused too small select boxes. */
+	option {
+		padding-left:0.4em;
+	} /* LTR */
+
+	select {
+		padding:1px;
+	}
+
+	/* (en) Global fix of the Italics bugs in IE 5.x and IE 6 */
+	* html body * {
+		overflow:visible;
+	}
+
+	body {
+		font-size:100.01%; /* Fix for rounding errors when scaling font sizes in older versions of Opera browser */
+		background:#fff;
+		color:#000;
+		text-align:left; /* LTR */
+		line-height: 1;
+	}
+
+	/* avoid visible outlines on DIV containers in Webkit browsers */
+	div {
+		outline:0 none;
+	}
+
+	/* HTML 5 - adjusting visual formatting model to block level */
+	article, aside, details, figcaption, figure, 
+	footer, header, hgroup, menu, nav, section {
+		display: block;
+	}
+
+	/* Hide number or bullet in lists */
+	ol, ul {
+		list-style: none;
+	}
+
+	/* Clear borders for <fieldset> and <img> elements */
+	fieldset, img {
+		border:0 solid;
+	}
+
+	/* hide quotes */
+	blockquote, q {
+		quotes: none;
+	}
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none;
+	}
+
+	/* table fix collapse and spacing */
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+
+	/* Clear borders/outline for links when you click */
+	a:active {
+	 border:0 none;
+	 outline:0 none;
+	}
+
 }
+
+@media print {
+
+	.noprint {
+		display:none !important;
+	}
+
+}
+/* End browser reset */
+
 body {
 }
 div {
@@ -35,6 +132,10 @@ div.child1-header {
 	margin-top: 7px;
 	margin-left: 10px;
 	float: left;
+	background-color:#FFF;
+}
+div.child1-header img {
+	margin-top:-22px;
 }
 div.child2-header {
 	width: 668px;
@@ -48,12 +149,6 @@ div.child2-1-header {
 	margin-left: 49px;
 	background-color: #FFF;
 }
-div.child2-2-header {
-	width: 619px;
-	height: 115px;
-	margin-left: 49px;
-	margin-top: 21px;
-}
 div.menu-header ul {
 	list-style-type: none;
 }
@@ -62,15 +157,36 @@ div.menu-header ul li {
 }
 div.menu-header ul li a {
 	display: block;
-	padding: 2px 5px;
-	color: #666;
+	padding: 9px 19px;
+	color: #999;
 	text-decoration: none;
 	text-transform: capitalize;
-font-family: "ColaborateLightRegular", Arial, Helvetica, sans-serif;
+	font-family: "ColaborateLightRegular", Arial, Helvetica, sans-serif;
 	font-size: 14px;
 }
 div.menu-header li:hover a {
 	color: #000;
+}
+div.child2-2-header {
+	width: 619px;
+	height: 115px;
+	margin-left: 49px;
+	margin-top: 21px;
+	background-color: #FFF;
+}
+.h1-header {
+	font-family: "ColaborateThinRegular", Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 23px;
+	color: #666;
+	line-height: 32px;
+}
+.h2-header {
+	font-family: "ColaborateThinRegular", Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 17px;
+	color: #999;
+	line-height: 24px;
 }
 /*-----------------end header----------- */
 div.content-up {
