@@ -4,7 +4,7 @@
 
 @media all {
 /* Global reset of paddings and margins for all HTML elements */
-html, body, div, span, applet, object, iframe,  h1, h2, h3, h4, h5, h6, p, blockquote, pre,  a, abbr, acronym, address, big, cite, code,  del, dfn, em, img, ins, kbd, q, s, samp,  small, strike, strong, sub, sup, tt, var,  b, u, i, center,  dl, dt, dd, ol, ul, li,  fieldset, form, label, legend,  table, caption, tbody, tfoot, thead, tr, th, td,  article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary,  time, mark, audio, video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -35,7 +35,7 @@ div {
 	outline: 0 none;
 }
 /* HTML 5 - adjusting visual formatting model to block level */
-article, aside, details, figcaption, figure,  footer, header, hgroup, menu, nav, section {
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 /* Hide number or bullet in lists */
@@ -50,7 +50,7 @@ fieldset, img {
 blockquote, q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,  q:before, q:after {
+blockquote:before, blockquote:after, q:before, q:after {
 	content: '';
 	content: none;
 }
@@ -163,11 +163,14 @@ div.child2-2-header {
 
 
 /*-----------------Start content----------- */
+.img:hover {
+	opacity: 0.8
+}
 div.content-up {
 	width: auto;
 	height: 310px;
 	background-color: #FFF;
-	position:relative;
+	position: relative;
 }
 div.child1-content-up {
 	position: absolute;
@@ -177,56 +180,115 @@ div.child1-content-up {
 	color: white;
 	opacity: 0.8;
 	width: 231px;
-	height:60px;
+	height: 60px;
 	z-index: 89;
 }
 div.child1-content-up p {
 	font-family: "ColaborateThinRegular", Arial, Helvetica, sans-serif;
 	font-weight: normal;
 	font-size: 17px;
-	padding-top:9px;
-	padding-left:11px;
+	padding-top: 9px;
+	padding-left: 11px;
 }
 div.content-middle {
-	height: 325px;
+	height: 251px;
 	width: auto;
+	padding: 54px 0px;
 }
 div.child1-content-middle {
-	height: inherit;
-	width: 311px;
+	height: 281px;
+	width: 300px;
 	float: left;
+	background-color: #FFF;
+	position: relative;
+}
+div.child1-content-middle h3, div.child2-content-middle h3, div.child3-content-middle h3 {
+	position: absolute;
+	left: 0;
+	top: -10px;
+	background: #DEDC00;
+	padding: 0 10px;
+	margin: 0;
+	z-index: 2;
+	text-shadow: #ECEB9F 1px 1px 2px;
+}
+div.child1-content-middle h3 a, div.child2-content-middle h3 a, div.child3-content-middle h3 a {
+	text-decoration: none;
+	color: #525251;
+	font-family: "ColaborateLightRegular", Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	line-height: 30px;
+}
+div.child1-content-middle p, div.child2-content-middle p, div.child3-content-middle p {
+	color: #999;
+	font-family: "ColaborateLightRegular", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 23px;
+	margin-top: 20px;
+	text-align: justify;
 }
 div.child2-content-middle {
-	height: inherit;
-	width: 320px;
+	height: 281px;
+	width: 300px;
 	float: left;
+	background-color: #FFF;
+	margin-left: 19px;
+	position: relative;
 }
 div.child3-content-middle {
-	height: inherit;
-	width: auto;
-	margin-left: 631px;
+	height: 281px;
+	width: 300px;
+	margin-left: 640px;
+	background-color: #FFF;
+	position: relative;
 }
+/*----End content middle---- */
+
 div.content-down {
 	width: auto;
-	height: 252px;
+	height: 229px;
+	padding: 7px 0px;
 }
 div.child1-content-down {
-	height: inherit;
+	height: 200px;
 	width: 174px;
 	float: left;
+	background-color:#FFF;
+}
+div.child1-content-down h4, div.child2-content-down h4, div.child3-content-down h4, div.child4-content-down {
+	color: #525251;
+	font-size: 13px;
+	text-transform: uppercase;
+	text-shadow: 1px 1px white;
+	padding-bottom:20px;
+		font-family: "ColaborateLightRegular", Arial, Helvetica, sans-serif;
+}
+div.child1-content-down a, div.child2-content-down a, div.child3-content-down a, div.child4-content-down a {
+	color: #828280;
+	text-decoration: none;
+	font-family: "ColaborateLightRegular", Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height:25px;
+}
+div.child1-content-down p, div.child2-content-down p, div.child3-content-down p, div.child4-content-down p {
+	
+
+}
+div.child1-content-down a, div.child2-content-down a, div.child3-content-down a, div.child4-content-down a a:hover a {
+	color: #000;
 }
 div.child2-content-down {
-	height: inherit;
+	height: 200px;
 	width: 277px;
 	float: left;
 }
 div.child3-content-down {
-	height: inherit;
+	height: 200px;
 	width: 241px;
 	float: left;
 }
 div.child4-content-down {
-	height: inherit;
+	height: 200px;
 	width: auto;
 	margin-left: 692px;
 }
