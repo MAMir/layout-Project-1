@@ -292,11 +292,9 @@ div.child2-content-down h4 a {
 	font-size: 13px;
 	text-decoration: none;
 	font-family: "ColaborateLightRegular", Arial, Helvetica, sans-serif;
-	padding-bottom: 20px;
-	font-size: 11px;
-}
-div.child2-content-down h4 a:before {
- &raquo;
+	margin-bottom: 20px;
+	font-size: 13px;
+	text-transform: uppercase;
 }
 div.child2-content-down ul {
 	list-style-type: none;
@@ -312,6 +310,14 @@ div.child2-content-down ul li {
 div.child2-content-down ul li a {
 	text-decoration: none;
 	color: #828280;
+	font-size: 11px;
+	font-family: "ColaborateLightRegular", Arial, Helvetica, sans-serif;
+}
+div.child2-content-down a:hover {
+	color: #000;
+}
+.opacity:hover {
+	opacity: 0.8;
 }
 /*----Start child1-content-down------------------------ */
 div.child3-content-down {
