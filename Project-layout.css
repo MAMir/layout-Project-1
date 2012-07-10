@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+}
+div {
+	outline: 1px solid #666666;
+}
+div.container {
+	width: 940px;
+	height: 1196px;
+	margin: 0 auto;
+	background-image: url(Project-layout.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	padding: 0.1px 0px;
+}
+div.clear {
+	width: 0;
+	height: 0;
+	clear: both;
+}
+/*-----------------start header----------- */
+div.header {
+	height: 195px;
+	width: 940px;
+}
+div.child1-header {
+	width: 253px;
+	height: 176px;
+	margin-top: 7px;
+	margin-left: 10px;
+	float: left;
+}
+div.child2-header {
+	width: 668px;
+	height: 187px;
+	margin-left: 272px;
+	padding-top: 7px;
+}
+div.child2-1-header {
+	width: 500px;
+	height: 33px;
+	margin-left: 49px;
+	background-color: #FFF;
+}
+div.child2-2-header {
+	width: 619px;
+	height: 115px;
+	margin-left: 49px;
+	margin-top: 21px;
+}
+div.menu-header ul {
+	list-style-type: none;
+}
+div.menu-header ul li {
+	float: left;
+}
+div.menu-header ul li a {
+	display: block;
+	padding: 2px 5px;
+	color: #666;
+	text-decoration: none;
+	text-transform: capitalize;
+font-family: "ColaborateLightRegular", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+div.menu-header li:hover a {
+	color: #000;
+}
+/*-----------------end header----------- */
+div.content-up {
+	width: auto;
+	height: 332px;
+}
+div.content-middle {
+	height: 325px;
+	width: auto;
+}
+div.child1-content-middle {
+	height: inherit;
+	width: 311px;
+	float: left;
+}
+div.child2-content-middle {
+	height: inherit;
+	width: 320px;
+	float: left;
+}
+div.child3-content-middle {
+	height: inherit;
+	width: auto;
+	margin-left: 631px;
+}
+div.content-down {
+	width: auto;
+	height: 252px;
+}
+div.child1-content-down {
+	height: inherit;
+	width: 174px;
+	float: left;
+}
+div.child2-content-down {
+	height: inherit;
+	width: 277px;
+	float: left;
+}
+div.child3-content-down {
+	height: inherit;
+	width: 241px;
+	float: left;
+}
+div.child4-content-down {
+	height: inherit;
+	width: auto;
+	margin-left: 692px;
+}
+div.footer {
+	height: 107px;
+	width: auto;
+}
+div.child1-footer {
+	height: inherit;
+	width: 312px;
+	float: left;
+}
+div.child2-footer {
+	height: inherit;
+	width: auto;
+	margin-left: 312px;
+}
