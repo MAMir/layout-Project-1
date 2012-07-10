@@ -244,44 +244,76 @@ div.child3-content-middle {
 }
 /*----End content middle---- */
 
+/*----Start content-down---- */
 div.content-down {
 	width: auto;
 	height: 229px;
 	padding: 7px 0px;
 }
+/*----Start child1-content-down---- */
 div.child1-content-down {
 	height: 200px;
-	width: 174px;
+	width: 220px;
 	float: left;
-	background-color:#FFF;
+	background-color: #FFF;
 }
-div.child1-content-down h4, div.child2-content-down h4, div.child3-content-down h4, div.child4-content-down {
+div.child1-content-down h4 {
 	color: #525251;
 	font-size: 13px;
 	text-transform: uppercase;
 	text-shadow: 1px 1px white;
-	padding-bottom:20px;
-		font-family: "ColaborateLightRegular", Arial, Helvetica, sans-serif;
+	padding-bottom: 20px;
+	font-family: "ColaborateLightRegular", Arial, Helvetica, sans-serif;
 }
-div.child1-content-down a, div.child2-content-down a, div.child3-content-down a, div.child4-content-down a {
+div.child1-content-down a {
 	color: #828280;
 	text-decoration: none;
 	font-family: "ColaborateLightRegular", Arial, Helvetica, sans-serif;
 	font-size: 11px;
-	line-height:25px;
+	line-height: 25px;
 }
-div.child1-content-down p, div.child2-content-down p, div.child3-content-down p, div.child4-content-down p {
-	
-
-}
-div.child1-content-down a, div.child2-content-down a, div.child3-content-down a, div.child4-content-down a a:hover a {
+div.child1-content-down a:hover {
 	color: #000;
 }
+/*----Start child1-content-down------------------------ */
 div.child2-content-down {
 	height: 200px;
-	width: 277px;
+	width: 220px;
 	float: left;
+	margin-left: 20px;
+	background-color: #FFF;
 }
+div.child2-content-down h4 a {
+	display: block;
+	background: url(footer_icon_rss.gif);
+	background-repeat: no-repeat;
+	padding-left: 18px;
+	color: #3C3C3C;
+	font-size: 13px;
+	text-decoration: none;
+	font-family: "ColaborateLightRegular", Arial, Helvetica, sans-serif;
+	padding-bottom: 20px;
+	font-size: 11px;
+}
+div.child2-content-down h4 a:before {
+ &raquo;
+}
+div.child2-content-down ul {
+	list-style-type: none;
+}
+div.child2-content-down ul li {
+	margin-bottom:9px;
+	padding-left: 10px;
+	background: url(chevrons.gif);
+	background-repeat:no-repeat;
+	background-position:center left;
+	line-height: 16px;
+}
+div.child2-content-down ul li a {
+	text-decoration: none;
+	color: #828280;
+}
+/*----Start child1-content-down------------------------ */
 div.child3-content-down {
 	height: 200px;
 	width: 241px;
