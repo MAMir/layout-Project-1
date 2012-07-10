@@ -189,9 +189,13 @@ div.child2-2-header {
 	line-height: 24px;
 }
 /*-----------------end header----------- */
+
+
+
+/*-----------------Start content----------- */
 div.content-up {
 	width: auto;
-	height: 332px;
+	height: 312px;
 }
 div.content-middle {
 	height: 325px;
