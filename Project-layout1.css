@@ -247,7 +247,7 @@ div.child3-content-middle {
 /*----Start content-down---- */
 div.content-down {
 	width: auto;
-	height: 229px;
+	height: 215px;
 	padding: 7px 0px;
 }
 /*----Start child1-content-down---- */
@@ -345,7 +345,7 @@ p.tell {
 	line-height: 16px;
 	height: 16px;
 	color: #828280;
-	margin-bottom:8px;
+	margin-bottom: 8px;
 }
 p.mail {
 	display: block;
@@ -357,7 +357,11 @@ p.mail {
 	line-height: 16px;
 	height: 16px;
 	color: #828280;
-	margin-bottom:8px;
+	margin-bottom: 8px;
+}
+p.mail a {
+	text-decoration: none;
+	color: #828280;
 }
 p.post {
 	display: block;
@@ -369,7 +373,7 @@ p.post {
 	line-height: 16px;
 	height: 16px;
 	color: #828280;
-	margin-bottom:25px;
+	margin-bottom: 25px;
 }
 p.link {
 	display: block;
@@ -385,24 +389,75 @@ p.link {
 .link-2 {
 	background: none;
 }
-.tell-2 {
-	padding:2px 4px;
+p.link a {
+	text-decoration: none;
+	color: #333;
+}
+.tell-2, .mail-2, .post-2 {
+	padding: 2px 4px;
 	background: #DEDC00;
 }
-.mail-2 {
-	padding:2px 4px;
-	background: #DEDC00;
-}
-.post-2 {
-	padding:2px 4px;
-	background: #DEDC00;
+.opacity-2:hover {
+	opacity: 0.8;
+	text-decoration: underline;
 }
 /*----Start child4-content-down------------------------ */
 div.child4-content-down {
 	height: 200px;
-	width: auto;
-	margin-left: 712px;
+	width: 220px;
+	margin-left: 720px;
+	background-color: #FFF;
 }
+div.child4-content-down h4 {
+	color: #525251;
+	font-size: 13px;
+	text-transform: uppercase;
+	text-shadow: 1px 1px white;
+	padding-bottom: 20px;
+	font-family: "ColaborateLightRegular", Arial, Helvetica, sans-serif;
+}
+.child4-content-down-up {
+	color: #828280;
+	font-family: "ColaborateLightRegular", Arial, Helvetica, sans-serif;
+	text-align: justify;
+	line-height: 1.4em;
+	font-size: 11px;
+}
+.input-mail {
+	margin: 10px 0px;
+	background: #E3E1DD;
+	color: #A0A09E;
+	font-size: 10px;
+	border: 1px solid #CECDC8;
+	height: 33px;
+	width: 70%;
+	padding: 0px 0.7em;
+	float: left;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+.input-mail-submit {
+	margin: 10px 0 12px 2px;
+	padding: 0 6px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	background: #C7C6C4;
+	color: #6A6A69;
+	font-size: 10px;
+	height: 33px;
+	border: 1px solid #B7B5B2;
+	width: 15%;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+.child4-content-down-down {
+	font-size: 9px;
+line-height: 12px;
+color: #ADACAB;
+font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+}
+}
+/*----Start footer------------------------ */
 div.footer {
 	height: 107px;
 	width: auto;
