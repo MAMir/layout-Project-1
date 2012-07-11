@@ -345,10 +345,7 @@ p.tell {
 	line-height: 16px;
 	height: 16px;
 	color: #828280;
-	margin-bottom:5px;
-}
-div.child3-content-down span {
-	background: #DEDC00;
+	margin-bottom:8px;
 }
 p.mail {
 	display: block;
@@ -360,11 +357,11 @@ p.mail {
 	line-height: 16px;
 	height: 16px;
 	color: #828280;
-	margin-bottom:5px;
+	margin-bottom:8px;
 }
 p.post {
 	display: block;
-	background: url(mail.jpg);
+	background: url(post.jpg);
 	background-repeat: no-repeat;
 	padding-left: 25px;
 	font-family: "ColaborateLightRegular", Arial, Helvetica, sans-serif;
@@ -376,7 +373,7 @@ p.post {
 }
 p.link {
 	display: block;
-	background: url(mail.jpg);
+	background: url(link.jpg);
 	background-repeat: no-repeat;
 	padding-left: 25px;
 	font-family: "ColaborateLightRegular", Arial, Helvetica, sans-serif;
@@ -384,10 +381,21 @@ p.link {
 	line-height: 16px;
 	height: 16px;
 	color: #828280;
-	margin-bottom:5px;
 }
-span.link-2 {
+.link-2 {
 	background: none;
+}
+.tell-2 {
+	padding:2px 4px;
+	background: #DEDC00;
+}
+.mail-2 {
+	padding:2px 4px;
+	background: #DEDC00;
+}
+.post-2 {
+	padding:2px 4px;
+	background: #DEDC00;
 }
 /*----Start child4-content-down------------------------ */
 div.child4-content-down {
