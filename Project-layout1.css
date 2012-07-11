@@ -452,23 +452,34 @@ div.child4-content-down h4 {
 }
 .child4-content-down-down {
 	font-size: 9px;
-line-height: 12px;
-color: #ADACAB;
-font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
-}
+	line-height: 12px;
+	color: #ADACAB;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
 }
 /*----Start footer------------------------ */
 div.footer {
-	height: 107px;
-	width: auto;
+	height: 73px;
+	width: 940px;
+	padding-top: 30px;
 }
 div.child1-footer {
-	height: inherit;
-	width: 312px;
+	height: 30px;
+	width: 284px;
 	float: left;
+	background-color:#FFF;
+}
+.footer-left {
+	color: #ADACAB;
+	font-size:9px;
+	line-height: 10px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+}
+div.child1-footer a {
+	color: #83837F;
+	text-decoration:none;
 }
 div.child2-footer {
-	height: inherit;
+	height: 60px;
 	width: auto;
-	margin-left: 312px;
+	margin-left:480px;
 }
