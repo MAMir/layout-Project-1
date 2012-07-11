@@ -466,20 +466,68 @@ div.child1-footer {
 	height: 30px;
 	width: 284px;
 	float: left;
-	background-color:#FFF;
+	background-color: #FFF;
 }
 .footer-left {
 	color: #ADACAB;
-	font-size:9px;
+	font-size: 9px;
 	line-height: 10px;
 	font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
 }
 div.child1-footer a {
 	color: #83837F;
-	text-decoration:none;
+	text-decoration: none;
 }
 div.child2-footer {
-	height: 60px;
-	width: auto;
-	margin-left:480px;
+	height: 50px;
+	width: 220px;
+	margin-right: 241px;
+	float: right;
+	background-image: url(social_network_invit.gif);
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	background-color: #FFF;
+}
+.a1-child2-footer {
+	font-size: 0px;
+	display: block;
+	height: 20px;
+	width: 20px;
+	background: url(rss.jpg) no-repeat 50%;
+	float: right;
+	margin-left: 5px;
+}
+.a2-child2-footer {
+	font-size: 0px;
+	height: 20px;
+	display: block;
+	width: 20px;
+	background: url(flickr.jpg) no-repeat 50%;
+	float: right;
+	margin-left: 4px;
+}
+.a3-child2-footer {
+	font-size: 0px;
+	height: 20px;
+	width: 20px;
+	display: block;
+	background: url(twitter.jpg) no-repeat 50%;
+	float: right;
+	margin-left: 4px;
+}
+.a4-child2-footer {
+	font-size: 0px;
+	height: 20px;
+	width: 20px;
+	display: block;
+	background: url(facebook.jpg) no-repeat 50%;
+	float: right;
+}
+.child2-footer a:hover {
+	opacity: 0.8;
+}
+div.child3-footer {
+	width: 204px;
+	height: 50px;
+	margin-left: 736px;
 }
