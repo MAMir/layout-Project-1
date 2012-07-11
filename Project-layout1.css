@@ -75,7 +75,7 @@ a:active {
 body {
 }
 div {
-	outline: 1px solid #666666;
+	
 }
 div.container {
 	width: 940px;
@@ -91,7 +91,7 @@ div.clear {
 	height: 0;
 	clear: both;
 }
-/*-----------------start header----------- */
+/*-----------------start header------------------- */
 div.header {
 	height: 195px;
 	width: 940px;
