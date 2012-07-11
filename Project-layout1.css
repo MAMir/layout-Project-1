@@ -275,7 +275,7 @@ div.child1-content-down a {
 div.child1-content-down a:hover {
 	color: #000;
 }
-/*----Start child1-content-down------------------------ */
+/*----Start child2-content-down------------------------ */
 div.child2-content-down {
 	height: 200px;
 	width: 220px;
@@ -300,11 +300,11 @@ div.child2-content-down ul {
 	list-style-type: none;
 }
 div.child2-content-down ul li {
-	margin-bottom:9px;
+	margin-bottom: 9px;
 	padding-left: 10px;
 	background: url(chevrons.gif);
-	background-repeat:no-repeat;
-	background-position:center left;
+	background-repeat: no-repeat;
+	background-position: center left;
 	line-height: 16px;
 }
 div.child2-content-down ul li a {
@@ -319,16 +319,81 @@ div.child2-content-down a:hover {
 .opacity:hover {
 	opacity: 0.8;
 }
-/*----Start child1-content-down------------------------ */
+/*----Start child3-content-down------------------------ */
 div.child3-content-down {
 	height: 200px;
-	width: 241px;
+	width: 220px;
 	float: left;
+	background-color: #FFF;
+	margin-left: 20px;
 }
+div.child3-content-down h4 {
+	color: #525251;
+	font-size: 13px;
+	text-transform: uppercase;
+	text-shadow: 1px 1px white;
+	padding-bottom: 20px;
+	font-family: "ColaborateLightRegular", Arial, Helvetica, sans-serif;
+}
+p.tell {
+	display: block;
+	background: url(tell.jpg);
+	background-repeat: no-repeat;
+	padding-left: 25px;
+	font-family: "ColaborateLightRegular", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	height: 16px;
+	color: #828280;
+	margin-bottom:5px;
+}
+div.child3-content-down span {
+	background: #DEDC00;
+}
+p.mail {
+	display: block;
+	background: url(mail.jpg);
+	background-repeat: no-repeat;
+	padding-left: 25px;
+	font-family: "ColaborateLightRegular", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	height: 16px;
+	color: #828280;
+	margin-bottom:5px;
+}
+p.post {
+	display: block;
+	background: url(mail.jpg);
+	background-repeat: no-repeat;
+	padding-left: 25px;
+	font-family: "ColaborateLightRegular", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	height: 16px;
+	color: #828280;
+	margin-bottom:25px;
+}
+p.link {
+	display: block;
+	background: url(mail.jpg);
+	background-repeat: no-repeat;
+	padding-left: 25px;
+	font-family: "ColaborateLightRegular", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	height: 16px;
+	color: #828280;
+	margin-bottom:5px;
+}
+span.link-2 {
+	background: none;
+}
+/*----Start child4-content-down------------------------ */
 div.child4-content-down {
 	height: 200px;
 	width: auto;
-	margin-left: 692px;
+	margin-left: 712px;
 }
 div.footer {
 	height: 107px;
