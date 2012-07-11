@@ -462,6 +462,7 @@ div.footer {
 	width: 940px;
 	padding-top: 30px;
 }
+/*----Start footer------------------------ */
 div.child1-footer {
 	height: 30px;
 	width: 284px;
@@ -478,26 +479,51 @@ div.child1-footer a {
 	color: #83837F;
 	text-decoration: none;
 }
+/*----Start child2-footer------------------------ */
 div.child2-footer {
-	height: 50px;
-	width: 220px;
-	margin-right: 241px;
+	height: 21px;
+	width: 204px;
+	margin-right: 0px;
 	float: right;
+	padding: 8px 8px;
+	background-color: #FFF;
+}
+div.child2-footer a {
+	background-color: #E3E1DD;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+	font-size: 10px;
+	color: #828280;
+	text-decoration: none;
+}
+div.child2-footer a:hover {
+	opacity: 0.8;
+}
+.child2-footer-a2 {
+	background-image: url(footer_espaceclient_icon.gif);
+	background-repeat: no-repeat;
+	padding-left: 15px;
+	margin-left: 47px;
+}
+/*----Start child3-footer------------------------ */
+div.child3-footer {
+	width: 220px;
+	height: 50px;
 	background-image: url(social_network_invit.gif);
 	background-repeat: no-repeat;
 	background-position: bottom left;
 	background-color: #FFF;
+	margin-left: 479px;
 }
-.a1-child2-footer {
+.a1-child3-footer {
 	font-size: 0px;
 	display: block;
 	height: 20px;
 	width: 20px;
 	background: url(rss.jpg) no-repeat 50%;
 	float: right;
-	margin-left: 5px;
+	margin-left: 3.5px;
 }
-.a2-child2-footer {
+.a2-child3-footer {
 	font-size: 0px;
 	height: 20px;
 	display: block;
@@ -506,7 +532,7 @@ div.child2-footer {
 	float: right;
 	margin-left: 4px;
 }
-.a3-child2-footer {
+.a3-child3-footer {
 	font-size: 0px;
 	height: 20px;
 	width: 20px;
@@ -515,7 +541,7 @@ div.child2-footer {
 	float: right;
 	margin-left: 4px;
 }
-.a4-child2-footer {
+.a4-child3-footer {
 	font-size: 0px;
 	height: 20px;
 	width: 20px;
@@ -523,12 +549,6 @@ div.child2-footer {
 	background: url(facebook.jpg) no-repeat 50%;
 	float: right;
 }
-.child2-footer a:hover {
+.child3-footer a:hover {
 	opacity: 0.8;
-}
-div.child3-footer {
-	width: 204px;
-	height: 50px;
-	margin-left: 736px;
-	background-color:#FFF;
 }
