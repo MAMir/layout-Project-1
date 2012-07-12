@@ -81,7 +81,7 @@ div.container {
 	width: 940px;
 	height: 1196px;
 	margin: 0 auto;
-	background-image: url(Project-layout1.jpg);
+	background-image: url();
 	background-repeat: no-repeat;
 	background-position: top center;
 	padding: 0.1px 0px;
@@ -196,6 +196,10 @@ div.content-middle {
 	width: auto;
 	padding: 54px 0px;
 	position:relative;
+}
+.img1 {
+	position:absolute;
+	top:5px;
 }
 div.child1-content-middle {
 	height: 281px;
