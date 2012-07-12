@@ -190,10 +190,12 @@ div.child1-content-up p {
 	padding-top: 9px;
 	padding-left: 11px;
 }
+/*-----------------Start content-middle----------- */
 div.content-middle {
 	height: 251px;
 	width: auto;
 	padding: 54px 0px;
+	position:relative;
 }
 div.child1-content-middle {
 	height: 281px;
@@ -242,6 +244,10 @@ div.child3-content-middle {
 	background-color: #FFF;
 	position: relative;
 }
+.img2 {
+	position:absolute;
+	bottom:18px;
+}
 /*----End content middle---- */
 
 /*----Start content-down---- */
@@ -249,6 +255,7 @@ div.content-down {
 	width: auto;
 	height: 215px;
 	padding: 7px 0px;
+	border-bottom:1px dashed #666666;
 }
 /*----Start child1-content-down---- */
 div.child1-content-down {
