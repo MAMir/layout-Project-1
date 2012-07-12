@@ -200,6 +200,7 @@ div.content-middle {
 .img1 {
 	position:absolute;
 	top:5px;
+	right:0px;
 }
 div.child1-content-middle {
 	height: 281px;
